@@ -14,10 +14,6 @@ https://tray.io/blog/how-do-apis-work
 
 https://restfulapi.net/
 
-https://leapgraph.com/rest-api-alternatives/
-
-https://futurice.com/blog/api-services-mvc
-
 https://merehead.com/blog/development-trends-best-backend-frameworks-in-2022/
 ## Architecture design
 * Information and data
@@ -47,8 +43,6 @@ https://devdocs.io/express-getting-started/
 
 https://docs.nestjs.com/
 
-https://github.com/brocoders/nestjs-boilerplate
-
 https://docs.nestjs.com/openapi/introduction
 ## Implementing the API
 * The NestJS CLI
@@ -64,7 +58,6 @@ https://docs.nestjs.com/openapi/introduction
 ### References
 https://docs.nestjs.com/cli/overview
 
-https://docs.nestjs.com/recipes/crud-generator
 # Homework
 * Create Github Issues with your questions about this lesson
 * Read the references
