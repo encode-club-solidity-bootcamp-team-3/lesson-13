@@ -1,76 +1,61 @@
-# Lesson 13 - NodeJS API using NestJS framework
+# Lesson 13 - Frontend
 
 ## Architecture overview
 
-* API endpoints
-* HTTP and HTTPS requests and responses
-* Architectures
-  * RESTful, SOAP,  GraphQL, gRPC, Falcor, Pure JSON and others
-  * Webhooks
-  * MVC
-* Documentation
-  * Swagger and Postman
-* Programming languages and Frameworks
+* The browser
+* HTML
+* CSS
+* Javascript
+* Dynamic content
+* Languages and frameworks
+* Responsiveness
 
 ### References
-<https://tray.io/blog/how-do-apis-work>
 
-<https://www.ibm.com/topics/rest-apis>
+<https://en.wikipedia.org/wiki/Web_application>
 
-<https://restfulapi.net/>
+## Design of User Experience and User Interface
 
-<https://aglowiditsolutions.com/blog/most-popular-backend-frameworks/>
-
-## Architecture design
-
-* Information and data
-* Object Modeling and resources
-* Model URIs
-* Controllers
-* Services
-* Database
+* Feature mapping
+* User interface
+* Page structure
 
 ### References
-<https://restfulapi.net/rest-api-design-tutorial-with-example/>
 
-<https://www.coreycleary.me/what-is-the-difference-between-controllers-and-services-in-node-rest-apis/>
+<https://fuzzymath.com/blog/components-of-good-ui-design-examples/>
 
-## NestJS Framework
+## Frameworks
 
-* Running services with node
-* Web server with node
-* Using Express to run a node web server
-* About using frameworks
-* Using NestJS framework
-* Overview of a NestJS project
-* Using the CLI
-* Initializing a project with NestJS
-* Swagger plugin
+* Modern programming languages and frameworks
+* Picking a framework
+* React
+* NextJS
 
 ### References
-<https://nodejs.org/en/docs/guides/getting-started-guide/>
 
-<https://devdocs.io/express-getting-started/>
+<https://stackdiary.com/front-end-frameworks/>
 
-<https://docs.nestjs.com/>
+<https://merehead.com/blog/top-css-frameworks-developers-designers-2023/>
 
-<https://docs.nestjs.com/openapi/introduction>
+<https://react.dev/learn>
 
-## Implementing the API
+<https://nextjs.org/learn/foundations/about-nextjs/what-is-nextjs>
 
-* The NestJS CLI
-* Creating Resources
-* Controllers, Services and Routes in NestJS
-* Modules and injections (overview)
-* Server configuration
-* Serving scripts as services
-* Params, DTOs and Payloads
-* HTTP errors and messages
-* (Review) Environment
-* Implementing the features
+## Implementing the dApp using create-web3-dapp
+
+* Creating the project
+* Project structure
+* Components
+* Overview of jsx syntax
+* Adding content to pages
 
 ### References
-<https://docs.nestjs.com/cli/overview>
+
+<https://github.com/alchemyplatform/create-web3-dapp>
+
+<https://legacy.reactjs.org/docs/introducing-jsx.html>
+
+<https://docs.alchemy.com/docs/create-web3-dapp>
 
 ---
 
