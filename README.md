@@ -59,7 +59,7 @@
 
 <https://www.rainbowkit.com/docs/introduction>
 
-<https://github.com/wagmi-dev/wagmi>
+<https://wagmi.sh/react/getting-started>
 
 ---
 
