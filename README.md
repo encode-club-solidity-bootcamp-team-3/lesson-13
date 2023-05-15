@@ -53,9 +53,13 @@
 
 <https://github.com/alchemyplatform/create-web3-dapp>
 
-<https://legacy.reactjs.org/docs/introducing-jsx.html>
+<https://react.dev/learn/writing-markup-with-jsx>
 
 <https://docs.alchemy.com/docs/create-web3-dapp>
+
+<https://www.rainbowkit.com/docs/introduction>
+
+<https://github.com/wagmi-dev/wagmi>
 
 ---
 
