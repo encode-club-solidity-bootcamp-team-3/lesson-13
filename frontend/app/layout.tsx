@@ -1,8 +1,9 @@
 "use client";
-import { WagmiConfig, createConfig } from "wagmi";
+import { WagmiConfig, createConfig, sepolia } from "wagmi";
 import { ConnectKitProvider, getDefaultConfig } from "connectkit";
 import Navbar from "@/components/instructionsComponent/navigation/navbar";
 import Footer from "@/components/instructionsComponent/navigation/footer";
+import { goerli } from "viem/chains";
 
 const config = createConfig(
   getDefaultConfig({
@@ -17,6 +18,12 @@ const config = createConfig(
     appDescription: "Your App Description",
     appUrl: "https://family.co", // your app's url
     appIcon: "https://family.co/logo.png", // your app's logo,no bigger than 1024x1024px (max. 1MB)
+
+    // ChainDoesNotSupportContract: Chain "Sepolia" does not support contract "ensUniversalResolver".
+    // This could be due to any of the following:
+    // - The chain does not have the contract "ensUniversalResolver" configured.
+    // chains: [sepolia],
+    chains: [goerli],
   })
 );
 
