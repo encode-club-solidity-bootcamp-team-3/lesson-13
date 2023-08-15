@@ -24,6 +24,7 @@ const config = createConfig(
     // - The chain does not have the contract "ensUniversalResolver" configured.
     // chains: [sepolia],
     chains: [goerli],
+    autoConnect: false
   })
 );
 
