@@ -5,6 +5,7 @@ import { WalletAction } from "./WalletAction";
 import { WalletBalance } from "./WalletBalance";
 import { TokenName } from "./TokenName";
 import { TokenBalance } from "./TokenBalance";
+import { RequestTokens } from "./RequestTokens";
 
 export function WalletInfo() {
   const { address, isConnecting, isDisconnected } = useAccount();
@@ -19,6 +20,7 @@ export function WalletInfo() {
         <TokenBalance address={address} />
         <TokenName />
         <WalletBalance address={address} />
+        <RequestTokens address={address} />
       </div>
     );
   if (isConnecting) return <p>Loading...</p>;

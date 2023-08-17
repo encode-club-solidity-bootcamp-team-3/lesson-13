@@ -1,4 +1,5 @@
 import styles from "./instructionsComponent.module.css";
+import { TokenAddressFromApi } from "./TokenAddressFromApi";
 import { WalletInfo } from "./WalletInfo";
 
 export default function InstructionsComponent() {
@@ -11,6 +12,7 @@ export default function InstructionsComponent() {
       </header>
       <div className={styles.get_started}>
         <WalletInfo />
+        <TokenAddressFromApi />
       </div>
     </div>
   );
